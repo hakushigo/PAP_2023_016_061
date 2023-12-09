@@ -1,0 +1,136 @@
+:root{
+    --primary : #0477BF;
+    --secondary : #461973;
+}
+
+
+body{
+    font-family: 'Inter', sans-serif!important;
+}
+.bg-primary{
+    background-color: var(--primary);
+}
+
+.container-fluid {
+    padding : 0 100px;
+}
+
+.navbar-brand > .logo{
+    height: 20px;
+    width: auto;
+    align-content: center;
+    align-items: center;
+}
+
+.dashboard-title{
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12pt;
+    color: white;
+}
+
+.profilebtn{
+    color: rgb(161, 200, 255);
+    font-size: 16pt;
+}
+
+.profilebtn:hover{
+    color: rgb(208, 227, 255);
+}
+
+.page{
+    
+}
+
+.container{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.sidebar{
+    height: calc(100vh - 71px);
+    padding: 0;
+    background-color: rgb(240, 238, 238);
+    width: 50px;
+}
+
+.sidebar-item:hover{
+    background-color: rgb(212, 212, 212);
+}
+
+.sidebar-item{
+    height : 60px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    transition: .25s ease-in-out;
+}
+
+.sidebar-item *{
+    font-size: 14pt;
+    color: rgb(126, 126, 126);
+    transition: .15s ease-in-out;
+}
+
+.sidebar-item:hover *{
+    color: rgb(61, 61, 61);
+}
+
+
+.sidebar a {
+    text-decoration: none;
+}
+
+
+.container {
+    text-align: left; /* Center the text within the container */
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center the content vertically */
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px; /* Adjust the width as needed */
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #9cdef5;
+    margin: 0 10px; /* Adjust the margin between boxes as needed */
+}
+
+.boxes .text {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.boxes .number {
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.box.box1 {
+    background-color: #461973;
+}
+
+.box.box2 {
+    background-color:  #461973;
+}
+
+.box.box3 {
+    background-color:  #461973;
+}
+
+.box.box4 {
+    background-color: #461973;
+}
